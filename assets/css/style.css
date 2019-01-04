@@ -1,0 +1,19 @@
+body {
+  font-family: "Rajdhani", sans-serif;
+  background-image: url("../img/debut_light.png"); }
+
+nav {
+  font-size: 18px; }
+  nav .navbar-brand {
+    font-weight: bold; }
+  nav input {
+    width: 125px;
+    height: 25px;
+    outline-color: #423531;
+    outline-width: thin;
+    color: #423531;
+    border-radius: 0.25em;
+    border: #423531;
+    background-image: url("../img/debut_light.png"); }
+  nav .navbar-toggler-icon {
+    outline-color: #423531; }

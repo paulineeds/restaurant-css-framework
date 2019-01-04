@@ -1,0 +1,31 @@
+$maincolor: #DDB1A4;
+$accentcolor: #423531;
+$font:'Rajdhani', sans-serif;
+
+body {
+  font-family: $font;
+  background-image: url("../img/debut_light.png");
+}
+nav {
+
+  font-size: 18px;
+
+  .navbar-brand {
+  font-weight: bold;
+}
+
+  input {
+  width: 125px;
+  height: 25px;
+  outline-color: $accentcolor;
+  outline-width: thin;
+  color: $accentcolor;
+  border-radius: 0.25em;
+  border:$accentcolor;
+  background-image: url("../img/debut_light.png");
+}
+
+  .navbar-toggler-icon {
+  outline-color: $accentcolor;
+}
+}
