@@ -2,6 +2,7 @@ $maincolor: #DDB1A4;
 $accentcolor: #423531;
 $font:'Rajdhani', sans-serif;
 
+
 body {
   font-family: $font;
   background-image: url("../img/debut_light.png");
@@ -32,9 +33,28 @@ nav {
   border-radius: 0.25em;
   border:$accentcolor;
   background-image: url("../img/debut_light.png");
+  text-align: center;
+  font-size: 12px;
 }
 
   .navbar-toggler-icon {
   outline-color: $accentcolor;
 }
 }
+
+  #container {
+  width: 80%;
+  margin: auto;
+
+  .jumbotron {
+    background-color: #F7F7F7;
+    border: solid 1px $accentcolor;
+    width: 95%;
+    margin:auto;
+    margin-top: 20px;
+
+}
+
+
+
+  }

@@ -21,6 +21,18 @@ nav {
     color: #423531;
     border-radius: 0.25em;
     border: #423531;
-    background-image: url("../img/debut_light.png"); }
+    background-image: url("../img/debut_light.png");
+    text-align: center;
+    font-size: 12px; }
   nav .navbar-toggler-icon {
     outline-color: #423531; }
+
+#container {
+  width: 80%;
+  margin: auto; }
+  #container .jumbotron {
+    background-color: #F7F7F7;
+    border: solid 1px #423531;
+    width: 95%;
+    margin: auto;
+    margin-top: 20px; }
