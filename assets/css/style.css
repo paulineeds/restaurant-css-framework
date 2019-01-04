@@ -4,8 +4,15 @@ body {
 
 nav {
   font-size: 18px; }
+  nav img {
+    width: 25px;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-bottom: 4px; }
   nav .navbar-brand {
-    font-weight: bold; }
+    font-weight: bold;
+    font-size: 19px;
+    margin-right: 50px; }
   nav input {
     width: 125px;
     height: 25px;
