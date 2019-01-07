@@ -54,7 +54,7 @@ nav {
     border: solid 1px $accentcolor;
     width: 95%;
     margin:auto;
-    margin-top: 20px;
+    margin-top: 40px;
 }
 // close jumbotron -----------------------------------------------------------------------------------------
 // form ----------------------------------------------------------------------------------------------------
@@ -84,5 +84,28 @@ form {
   }
 }
 // Close form ----------------------------------------------------------------------------------------------
+
+//photos ---------------------------------------------------------------------------------------------------
+.pagination {
+  a {
+  text-decoration: none;
+  color: $accentcolor;
+  padding: 8px 16px;
+  border:none;
+  background-image: url("../img/debut_light.png");
+  border-radius: 5px;
+  }
+  }
+img {
+  width:500px;
+  padding: 1%;
+  opacity: 0.8;
+  border-radius: 2%;
+}
+.photos {
+  margin-top: 40px;
+}
+// Close photos -------------------------------------------------------------------------------------------
+
 
 }//close container

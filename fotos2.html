@@ -6,19 +6,20 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css?family=Rajdhani:400,700" rel="stylesheet">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
   <link rel="stylesheet" href="assets/css/style.css">
   <link rel="icon" href="assets/img/soeshi.png">
-  <title>Contact</title>
+  <title>Foto's</title>
 </head>
 
 <body>
   <header>
+
   </header>
 
-  <!-- navbar ------------------------------------------------------------------------------------------->
+<!--  navbar------------------------------------------------------------------------------------------->
+
   <nav class="navbar navbar-expand-lg navbar-light" style="background-color:#DDB1A4;">
-    <a class="navbar-brand" href="index.html">Soeshi<img src="assets/img/soeshi.png" alt="Soeshi"><span class="sr-only">(current)</span></a>
+    <a class="navbar-brand" href="index.html">Soeshi<img src="assets/img/soeshi.png" alt="Soeshi"></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -28,13 +29,13 @@
           <a class="nav-link" href="menu.html">Menu </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="fotos.html">Foto's</a>
+          <a class="nav-link active" href="fotos.html">Foto's<span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="restaurants.html">Restaurants</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" href="contact.html">Contact</a>
+          <a class="nav-link" href="contact.html">Contact</a>
         </li>
       </ul>
       <span class="navbar-text">
@@ -42,45 +43,33 @@
       </span>
     </div>
   </nav>
-<!-- end of navbar---------------------------------------------------------------------------------->
+<!-- end off navbar--------------------------------------------------------------------------------->
 <div id="container">
-<!-- form ------------------------------------------------------------------------------------------>
-<form>
-  <div class="form-group">
-      <label for="exampleFormControlInput">Naam</label>
-    <div class="form-row">
-    <div class="col">
-      <input type="text" class="form-control" placeholder="Voornaam">
-    </div>
-    <div class="col">
-      <input type="text" class="form-control" placeholder="Achternaam">
-    </div>
-    </div>
-  </div>
-  <div class="form-group">
-    <label for="exampleFormControlInput1">Emailaddres</label>
-    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="naam@voorbeeld.com">
-  </div>
-  <div class="form-group">
-    <label for="exampleFormControlSelect1">Optie</label>
-    <select class="form-control" id="exampleFormControlSelect1">
-      <option>Reservatie</option>
-      <option>Groepsreservatie</option>
-      <option>Vragen</option>
-      <option>Ideeën</option>
-      <option>Klachten</option>
-    </select>
-  </div>
-  <div class="form-group">
-    <label for="exampleFormControlTextarea1">Bericht</label>
-    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-  </div>
-  <button type="submit" class="btn btn-primary"><i class="fas fa-check"></i></button>
-</form>
+  <div class="photos">
+<img src="assets/img/interieur.jpg" alt="interieur">
+<img src="assets/img/interieur1.jpeg" alt="interieur">
+<img src="assets/img/restaurant.jpeg" alt="restaurant">
+<img src="assets/img/resto.jpeg" alt="chef">
 
+<!-- photos ------------------------------------------------------------------------------------------->
+<nav aria-label="Photos">
+  <ul class="pagination justify-content-center">
+    <li class="page-item">
+      <a class="page-link" href="fotos.html" tabindex="-1" aria-disabled="true">❮</a>
+    </li>
+    <li class="page-item"><a class="page-link" href="fotos.html">1</a></li>
+    <li class="page-item"><a class="page-link" href="fotos2.html" class="active">2</a></li>
+    <li class="page-item"><a class="page-link" href="fotos3.html">3</a></li>
+    <li class="page-item">
+      <a class="page-link" href="fotos3.html">❯</a>
+    </li>
+  </ul>
+</nav>
 
-
+<!-- end off photos ------------------------------------------------------------------------------------->
 </div>
+</div>
+
 
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>

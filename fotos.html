@@ -19,7 +19,7 @@
 <!--  navbar------------------------------------------------------------------------------------------->
 
   <nav class="navbar navbar-expand-lg navbar-light" style="background-color:#DDB1A4;">
-    <a class="navbar-brand active" href="index.html">Soeshi<img src="assets/img/soeshi.png" alt="Soeshi"><span class="sr-only">(current)</span></a>
+    <a class="navbar-brand" href="index.html">Soeshi<img src="assets/img/soeshi.png" alt="Soeshi"></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -29,7 +29,7 @@
           <a class="nav-link" href="menu.html">Menu </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="fotos.html">Foto's</a>
+          <a class="nav-link active" href="fotos.html">Foto's<span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="restaurants.html">Restaurants</a>
@@ -44,27 +44,32 @@
     </div>
   </nav>
 <!-- end off navbar--------------------------------------------------------------------------------->
-
+<div id="container">
+  <div class="photos">
+<img src="assets/img/1sushi.jpg" alt="sushi">
+<img src="assets/img/sushi.jpg" alt="sushi">
+<img src="assets/img/chef.jpeg" alt="sushi">
+<img src="assets/img/3sushi.jpg" alt="sushi">
 
 <!-- photos ------------------------------------------------------------------------------------------->
-<nav aria-label="Page navigation example">
+<nav aria-label="Photos">
   <ul class="pagination justify-content-center">
     <li class="page-item disabled">
-      <a class="page-link" href="#" tabindex="-1" aria-disabled="true"><</a>
+      <a class="page-link" href="fotos.html" tabindex="-1" aria-disabled="true">❮</a>
     </li>
-    <li class="page-item"><a class="page-link" href="#">1</a></li>
-    <li class="page-item"><a class="page-link" href="#">2</a></li>
-    <li class="page-item"><a class="page-link" href="#">3</a></li>
+    <li class="page-item"><a class="page-link" href="fotos.html" class="active">1</a></li>
+    <li class="page-item"><a class="page-link" href="fotos2.html">2</a></li>
+    <li class="page-item"><a class="page-link" href="fotos3.html">3</a></li>
     <li class="page-item">
-      <a class="page-link" href="#">Next</a>
+      <a class="page-link" href="fotos2.html">❯</a>
     </li>
   </ul>
 </nav>
 
-<!-- end off photos ------------------------------------------------------------------------------------->
-
-
-
+<!-- end of photos ------------------------------------------------------------------------------------->
+</div>
+</div>
+<!-- end of container -->
 
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
