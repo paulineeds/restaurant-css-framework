@@ -48,7 +48,8 @@ nav {
     #container form button {
       background-color: #DDB1A4;
       border: none;
-      color: #423531; }
+      color: #423531;
+      width: 8%; }
       #container form button:hover {
         color: white;
         -webkit-box-shadow: 5px 10px 10px 0 rgba(0, 0, 0, 0.24);
