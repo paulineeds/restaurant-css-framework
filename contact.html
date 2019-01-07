@@ -13,10 +13,11 @@
 
 <body>
   <header>
-
   </header>
+
+  <!-- navbar ------------------------------------------------------------------------------------------->
   <nav class="navbar navbar-expand-lg navbar-light" style="background-color:#DDB1A4;">
-    <a class="navbar-brand active" href="index.html">Soeshi<span class="sr-only">(current)</span></a>
+    <a class="navbar-brand active" href="index.html">Soeshi<img src="assets/img/soeshi.png" alt="Soeshi"><span class="sr-only">(current)</span></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -40,12 +41,45 @@
       </span>
     </div>
   </nav>
+<!-- end of navbar---------------------------------------------------------------------------------->
+<div id="container">
+<!-- form ------------------------------------------------------------------------------------------>
+<form>
+  <div class="form-group">
+      <label for="exampleFormControlInput">Naam</label>
+    <div class="form-row">
+    <div class="col">
+      <input type="text" class="form-control" placeholder="Voornaam">
+    </div>
+    <div class="col">
+      <input type="text" class="form-control" placeholder="Achternaam">
+    </div>
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="exampleFormControlInput1">Emailaddres</label>
+    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="naam@voorbeeld.com">
+  </div>
+  <div class="form-group">
+    <label for="exampleFormControlSelect1">Optie</label>
+    <select class="form-control" id="exampleFormControlSelect1">
+      <option>Reservatie</option>
+      <option>Groepsreservatie</option>
+      <option>Vragen</option>
+      <option>Ideeën</option>
+      <option>Klachten</option>
+    </select>
+  </div>
+  <div class="form-group">
+    <label for="exampleFormControlTextarea1">Bericht</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+  </div>
+  <button type="submit" class="btn btn-primary">Verzend</button>
+</form>
 
 
 
-
-
-
+</div>
 
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>

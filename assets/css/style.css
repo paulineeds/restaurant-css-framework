@@ -36,3 +36,20 @@ nav {
     width: 95%;
     margin: auto;
     margin-top: 20px; }
+  #container form {
+    width: 70%;
+    margin: auto;
+    margin-top: 30px;
+    color: #423531; }
+    #container form input {
+      color: #423531; }
+    #container form textarea {
+      color: #423531; }
+    #container form button {
+      background-color: #DDB1A4;
+      border: none;
+      color: #423531; }
+      #container form button:hover {
+        color: white;
+        -webkit-box-shadow: 5px 10px 10px 0 rgba(0, 0, 0, 0.24);
+        box-shadow: 5px 10px 10px 0 rgba(0, 0, 0, 0.24); }

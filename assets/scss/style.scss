@@ -7,6 +7,8 @@ body {
   font-family: $font;
   background-image: url("../img/debut_light.png");
 }
+
+// navbar---------------------------------------------------------------------------------------------------
 nav {
 
   font-size: 18px;
@@ -41,20 +43,45 @@ nav {
   outline-color: $accentcolor;
 }
 }
+// close navbar---------------------------------------------------------------------------------------------
 
   #container {
   width: 80%;
   margin: auto;
-
+// jumbotron ----------------------------------------------------------------------------------------------
   .jumbotron {
     background-color: #F7F7F7;
     border: solid 1px $accentcolor;
     width: 95%;
     margin:auto;
     margin-top: 20px;
-
 }
+// close jumbotron -----------------------------------------------------------------------------------------
+// form ----------------------------------------------------------------------------------------------------
+form {
+  width: 70%;
+  margin: auto;
+  margin-top: 30px;
+  color: $accentcolor;
 
-
-
+  input {
+  color: $accentcolor;
   }
+
+  textarea {
+  color: $accentcolor;
+  }
+
+  button {
+  background-color: $maincolor;
+  border: none;
+  color: $accentcolor;
+    &:hover {
+    color:white;
+    box-shadow: 5px 10px 10px 0 rgba(0,0,0,0.24);
+    }
+  }
+}
+// Close form ----------------------------------------------------------------------------------------------
+
+}//close container
