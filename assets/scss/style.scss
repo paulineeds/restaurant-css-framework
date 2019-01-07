@@ -58,6 +58,12 @@ nav {
 }
 // close jumbotron -----------------------------------------------------------------------------------------
 // form ----------------------------------------------------------------------------------------------------
+.form {
+  h1 {
+    text-align: center;
+    margin-top: 40px;
+}
+}
 form {
   width: 70%;
   margin: auto;
@@ -111,6 +117,11 @@ img {
 
 }
 // Close photos -------------------------------------------------------------------------------------------
-
+.list-group {
+  margin-top: 40px;
+  width: 60%;
+  margin:auto;
+  background-image: url("../img/debut_light.png");
+}
 
 }//close container
