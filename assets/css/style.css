@@ -76,8 +76,10 @@ nav {
   #container .list h1 {
     text-align: center;
     padding: 2%;
-    margin-top: 40px; }
+    margin-bottom: 0px;
+    color: #423531; }
   #container .list img {
+    margin-top: 40px;
     width: 70px; }
   #container .list .list-group {
     margin-top: 40px;
@@ -86,7 +88,10 @@ nav {
     padding: none; }
     #container .list .list-group h6 {
       font-weight: 600;
-      margin-bottom: 0px; }
+      margin-bottom: 0px;
+      color: #423531; }
     #container .list .list-group p {
       font-weight: lighter;
-      margin-bottom: 0px; }
+      margin-bottom: 0px;
+      font-size: 11px;
+      color: #423531; }

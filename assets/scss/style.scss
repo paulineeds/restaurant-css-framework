@@ -121,9 +121,11 @@ img {
   h1 {
     text-align: center;
     padding:2%;
-    margin-top: 40px;
+    margin-bottom: 0px;
+    color: $accentcolor;
   }
     img {
+      margin-top: 40px;
       width:70px;
     }
 .list-group {
@@ -134,10 +136,13 @@ img {
   h6 {
     font-weight: 600;
     margin-bottom: 0px;
+    color:$accentcolor;
   }
   p {
     font-weight: lighter;
     margin-bottom: 0px;
+    font-size: 11px;
+    color:$accentcolor;
   }
 }
 }
