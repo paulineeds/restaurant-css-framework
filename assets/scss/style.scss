@@ -8,6 +8,7 @@ $font:'Rajdhani', sans-serif;
 body {
   font-family: $font;
   background-image: url("../img/debut_light.png");
+  overflow-x: hidden;
 }
 
 // navbar---------------------------------------------------------------------------------------------------
@@ -72,6 +73,8 @@ nav {
   img {
     padding: 0px;
     opacity: 0.8;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
   }
   h5 {
     font-weight: 600;
@@ -205,6 +208,8 @@ img {
     a:hover {
       color: $white;
     }
-
+    img {
+      opacity: 0.8;
+    }
   }
 }
