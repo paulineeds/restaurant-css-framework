@@ -1,6 +1,7 @@
 $maincolor: #DDB1A4;
 $accentcolor: #423531;
 $white: #f5f5f5;
+$grey: #F7F7F7;
 $font:'Rajdhani', sans-serif;
 
 
@@ -51,13 +52,35 @@ nav {
   margin: auto;
 // jumbotron ----------------------------------------------------------------------------------------------
   .jumbotron {
-    background-color: #F7F7F7;
+    background-color: $grey;
     border: solid 1px $accentcolor;
     width: 95%;
     margin:auto;
     margin-top: 40px;
 }
 // close jumbotron -----------------------------------------------------------------------------------------
+// cards --------------------------------------------------------------------------------------------------
+
+.card-deck {
+  width: 98%;
+  margin: auto;
+  margin-top: 40px;
+  .card {
+  background-color: $grey;
+  border: solid 1px $accentcolor;
+  color: $accentcolor;
+  img {
+    padding: 0px;
+    opacity: 0.8;
+  }
+  h5 {
+    font-weight: 600;
+  }
+}
+}
+
+
+
 // form ----------------------------------------------------------------------------------------------------
 .form {
   h1 {
@@ -164,6 +187,7 @@ img {
   background-color: $maincolor;
   color: $accentcolor;
   .col-md-4{
+    margin-top: 10px;
     text-align: center;
     h2 {
       font-weight: bold;

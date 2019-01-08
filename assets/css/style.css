@@ -36,6 +36,19 @@ nav {
     width: 95%;
     margin: auto;
     margin-top: 40px; }
+  #container .card-deck {
+    width: 98%;
+    margin: auto;
+    margin-top: 40px; }
+    #container .card-deck .card {
+      background-color: #F7F7F7;
+      border: solid 1px #423531;
+      color: #423531; }
+      #container .card-deck .card img {
+        padding: 0px;
+        opacity: 0.8; }
+      #container .card-deck .card h5 {
+        font-weight: 600; }
   #container .form h1 {
     text-align: center;
     margin-top: 40px; }
@@ -106,6 +119,7 @@ nav {
   background-color: #DDB1A4;
   color: #423531; }
   .container-fluid .col-md-4 {
+    margin-top: 10px;
     text-align: center; }
     .container-fluid .col-md-4 h2 {
       font-weight: bold; }
