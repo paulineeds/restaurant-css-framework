@@ -57,7 +57,7 @@ nav {
       color: #423531;
       width: 8%; }
       #container form button:hover {
-        color: white;
+        color: #f5f5f5;
         -webkit-box-shadow: 5px 10px 10px 0 rgba(0, 0, 0, 0.24);
         box-shadow: 5px 10px 10px 0 rgba(0, 0, 0, 0.24); }
   #container .pagination a {
@@ -102,4 +102,19 @@ nav {
       color: #423531; }
 
 .container-fluid {
-  background-color: #DDB1A4; }
+  margin-top: 40px;
+  background-color: #DDB1A4;
+  color: #423531; }
+  .container-fluid .col-md-4 {
+    text-align: center; }
+    .container-fluid .col-md-4 h2 {
+      font-weight: bold; }
+    .container-fluid .col-md-4 h6 {
+      font-weight: 600;
+      margin-bottom: 5%; }
+    .container-fluid .col-md-4 a {
+      padding: 4%;
+      text-decoration: none;
+      color: #423531; }
+    .container-fluid .col-md-4 a:hover {
+      color: #f5f5f5; }

@@ -1,5 +1,6 @@
 $maincolor: #DDB1A4;
 $accentcolor: #423531;
+$white: #f5f5f5;
 $font:'Rajdhani', sans-serif;
 
 
@@ -88,7 +89,7 @@ form {
   color: $accentcolor;
   width: 8%;
     &:hover {
-    color:white;
+    color: $white;
     box-shadow: 5px 10px 10px 0 rgba(0,0,0,0.24);
     }
   }
@@ -159,6 +160,27 @@ img {
 
  // footer ------------------------------------------------------------------------------------------------
 .container-fluid {
+  margin-top: 40px;
   background-color: $maincolor;
+  color: $accentcolor;
+  .col-md-4{
+    text-align: center;
+    h2 {
+      font-weight: bold;
+    }
+    h6 {
+      font-weight: 600;
+      margin-bottom: 5%;
+    }
+    a {
+      padding: 4%;
+      text-decoration: none;
+      color:$accentcolor;
 
+    }
+    a:hover {
+      color: $white;
+    }
+
+  }
 }
