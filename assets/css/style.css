@@ -130,6 +130,10 @@ nav {
       font-size: 11px;
       color: #423531; }
 
+iframe {
+  margin-top: 40px;
+  opacity: 0.5; }
+
 .container-fluid {
   margin-top: 40px;
   background-color: #DDB1A4;
