@@ -89,11 +89,13 @@ nav {
     border-radius: 5px; }
   #container img {
     width: 100%;
-    padding: 2%;
     opacity: 0.8;
     border-radius: 1%;
     margin: auto;
     display: block; }
+  #container .A {
+    padding-top: 3%;
+    padding-bottom: 3%; }
   #container .photos {
     margin-top: 40px; }
   #container .list h1 {
