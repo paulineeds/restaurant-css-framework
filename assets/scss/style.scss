@@ -73,11 +73,15 @@ nav {
   img {
     padding: 0px;
     opacity: 0.8;
-    border-bottom-left-radius: 0px;
-    border-bottom-right-radius: 0px;
+    border-radius: 0px;
+    height: 50%;
   }
   h5 {
     font-weight: 600;
+  }
+  a {
+    text-decoration: underline;
+    color: $maincolor;
   }
 }
 }
@@ -89,6 +93,7 @@ nav {
   h1 {
     text-align: center;
     margin-top: 40px;
+    color: $accentcolor;
 }
 }
 form {
@@ -159,6 +164,7 @@ img {
   img {
       margin-top: 40px;
       width:70px;
+      padding-top: 0px;
       }
   .list-group {
   margin-top: 40px;

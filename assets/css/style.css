@@ -48,13 +48,17 @@ nav {
       #container .card-deck .card img {
         padding: 0px;
         opacity: 0.8;
-        border-bottom-left-radius: 0px;
-        border-bottom-right-radius: 0px; }
+        border-radius: 0px;
+        height: 50%; }
       #container .card-deck .card h5 {
         font-weight: 600; }
+      #container .card-deck .card a {
+        text-decoration: underline;
+        color: #DDB1A4; }
   #container .form h1 {
     text-align: center;
-    margin-top: 40px; }
+    margin-top: 40px;
+    color: #423531; }
   #container form {
     width: 70%;
     margin: auto;
@@ -99,7 +103,8 @@ nav {
     color: #423531; }
   #container .list img {
     margin-top: 40px;
-    width: 70px; }
+    width: 70px;
+    padding-top: 0px; }
   #container .list .list-group {
     margin-top: 40px;
     width: 60%;
