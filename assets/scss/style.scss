@@ -117,11 +117,29 @@ img {
 
 }
 // Close photos -------------------------------------------------------------------------------------------
+.list {
+  h1 {
+    text-align: center;
+    padding:2%;
+    margin-top: 40px;
+  }
+    img {
+      width:70px;
+    }
 .list-group {
   margin-top: 40px;
   width: 60%;
   margin:auto;
-  background-image: url("../img/debut_light.png");
+  padding: none;
+  h6 {
+    font-weight: 600;
+    margin-bottom: 0px;
+  }
+  p {
+    font-weight: lighter;
+    margin-bottom: 0px;
+  }
+}
 }
 
 }//close container

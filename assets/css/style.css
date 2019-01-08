@@ -73,8 +73,20 @@ nav {
     display: block; }
   #container .photos {
     margin-top: 40px; }
-  #container .list-group {
+  #container .list h1 {
+    text-align: center;
+    padding: 2%;
+    margin-top: 40px; }
+  #container .list img {
+    width: 70px; }
+  #container .list .list-group {
     margin-top: 40px;
     width: 60%;
     margin: auto;
-    background-image: url("../img/debut_light.png"); }
+    padding: none; }
+    #container .list .list-group h6 {
+      font-weight: 600;
+      margin-bottom: 0px; }
+    #container .list .list-group p {
+      font-weight: lighter;
+      margin-bottom: 0px; }
