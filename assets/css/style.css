@@ -1,7 +1,8 @@
 body {
   font-family: "Rajdhani", sans-serif;
   background-image: url("../img/debut_light.png");
-  overflow-x: hidden; }
+  overflow-x: hidden;
+  color: #423531; }
 
 nav {
   font-size: 18px; }
@@ -36,7 +37,12 @@ nav {
     border: solid 1px #423531;
     width: 95%;
     margin: auto;
-    margin-top: 40px; }
+    margin-top: 40px;
+    height: 325px;
+    padding-bottom: 0px;
+    padding-top: 5px; }
+    #container .jumbotron img {
+      opacity: 0.8; }
   #container .card-deck {
     width: 98%;
     margin: auto;
@@ -105,12 +111,12 @@ nav {
     color: #423531; }
   #container .list img {
     margin-top: 40px;
-    width: 70px;
+    width: 50px;
     padding-top: 0px; }
   #container .list .list-group {
-    margin-top: 40px;
     width: 60%;
     margin: auto;
+    margin-bottom: 30px;
     padding: none; }
     #container .list .list-group .list-group-item {
       background-image: url("../img/debut_light.png"); }
@@ -144,3 +150,7 @@ nav {
       color: #f5f5f5; }
     .container-fluid .col-md-4 img {
       opacity: 0.8; }
+
+@media screen and (max-width: 768px) {
+  .jumbotron img {
+    visibility: hidden; } }

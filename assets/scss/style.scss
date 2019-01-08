@@ -9,6 +9,7 @@ body {
   font-family: $font;
   background-image: url("../img/debut_light.png");
   overflow-x: hidden;
+  color: $accentcolor;
 }
 
 // navbar---------------------------------------------------------------------------------------------------
@@ -58,6 +59,12 @@ nav {
     width: 95%;
     margin:auto;
     margin-top: 40px;
+    height: 325px;
+    padding-bottom: 0px;
+    padding-top: 5px;
+    img {
+      opacity: 0.8;
+    }
 }
 // close jumbotron -----------------------------------------------------------------------------------------
 // cards --------------------------------------------------------------------------------------------------
@@ -165,13 +172,13 @@ img {
     }
   img {
       margin-top: 40px;
-      width:70px;
+      width:50px;
       padding-top: 0px;
       }
   .list-group {
-  margin-top: 40px;
   width: 60%;
   margin:auto;
+  margin-bottom: 30px;
   padding: none;
   .list-group-item{
     background-image: url("../img/debut_light.png");
@@ -221,3 +228,4 @@ img {
     }
   }
 }
+@import 'media';
