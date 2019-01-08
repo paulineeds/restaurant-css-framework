@@ -46,8 +46,11 @@ nav {
     color: #423531; }
     #container form input {
       color: #423531; }
-    #container form textarea {
-      color: #423531; }
+    #container form .form-control:focus {
+      outline: none;
+      -webkit-box-shadow: none !important;
+      box-shadow: none !important;
+      border: 1px solid #423531; }
     #container form button {
       background-color: #DDB1A4;
       border: none;
@@ -86,6 +89,8 @@ nav {
     width: 60%;
     margin: auto;
     padding: none; }
+    #container .list .list-group .list-group-item {
+      background-image: url("../img/debut_light.png"); }
     #container .list .list-group h6 {
       font-weight: 600;
       margin-bottom: 0px;
@@ -95,3 +100,6 @@ nav {
       margin-bottom: 0px;
       font-size: 11px;
       color: #423531; }
+
+.container-fluid {
+  background-color: #DDB1A4; }

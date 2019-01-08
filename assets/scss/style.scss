@@ -74,9 +74,13 @@ form {
   color: $accentcolor;
   }
 
-  textarea {
-  color: $accentcolor;
-  }
+
+  .form-control:focus {
+  outline: none;
+  box-shadow:none !important;
+  border:1px solid $accentcolor;
+}
+
 
   button {
   background-color: $maincolor;
@@ -117,34 +121,44 @@ img {
 
 }
 // Close photos -------------------------------------------------------------------------------------------
+// menu ---------------------------------------------------------------------------------------------------
 .list {
   h1 {
     text-align: center;
     padding:2%;
     margin-bottom: 0px;
     color: $accentcolor;
-  }
-    img {
+    }
+  img {
       margin-top: 40px;
       width:70px;
-    }
-.list-group {
+      }
+  .list-group {
   margin-top: 40px;
   width: 60%;
   margin:auto;
   padding: none;
+  .list-group-item{
+    background-image: url("../img/debut_light.png");
+  }
   h6 {
     font-weight: 600;
     margin-bottom: 0px;
     color:$accentcolor;
-  }
+    }
   p {
     font-weight: lighter;
     margin-bottom: 0px;
     font-size: 11px;
     color:$accentcolor;
-  }
+    }
 }
 }
 
 }//close container
+
+ // footer ------------------------------------------------------------------------------------------------
+.container-fluid {
+  background-color: $maincolor;
+
+}
