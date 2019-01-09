@@ -1,4 +1,7 @@
 @media screen and (max-width: 768px) {
+  body {
+    overflow-x: hidden;;
+  }
 .jumbotron {
   img {
     visibility: hidden;
@@ -19,13 +22,24 @@
   h2 {
     margin-top: 10px;
     padding-top: 0px;
-    padding-left: 51px;
+    padding-left: px;
   }
   ul {
-    padding-left: 51px;
+    padding-left: px;
     padding-bottom: 0px;
     margin-bottom: 0px;
   }
-  
+}
+
+.form {
+  button {
+    padding-left: 15px;
+    padding-right: 29px;
+
+    i {
+    align-items: center;
+    }
+
+  }
 }
 }

@@ -129,6 +129,8 @@ form {
     &:hover {
     color: $white;
     box-shadow: 5px 10px 10px 0 rgba(0,0,0,0.24);
+    transition-timing-function: ease-in;
+    transition: 0.5s;
     }
   }
 }
@@ -215,22 +217,31 @@ iframe {
 h2 {
   padding-top: 40px;
   margin-top: 17%;
+  margin-left: 75px;
+  padding-bottom: 1%;
 }
 ul {
   list-style: none;
   padding-left: 0px;
+  margin-left: 75px;
   i {
-    padding-right: 2%;
+    padding-right: 5%;
   }
   .text {
     visibility: hidden;
     padding-top: 0%;
   }
+  .space {
+    padding-bottom: 2%;
+  }
+  i.space {
+    padding-right: 6%;
+  }
 }
 .brussels {
   border: solid 1px $accentcolor;
   background-color:$grey;
-  width: 90%;
+  width: 87%;
   margin:auto;
   border-radius: 5px;
   padding-bottom: 40px;
@@ -243,6 +254,10 @@ ul {
   margin-top: 40px;
   background-color: $maincolor;
   color: $accentcolor;
+  .row {
+    width: 90%;
+    margin: auto;
+  }
   .col-md-4{
     margin-top: 10px;
     text-align: center;
@@ -261,6 +276,8 @@ ul {
     }
     a:hover {
       color: $white;
+      transition-timing-function: ease-in;
+      transition: 0.5s;
     }
     img {
       opacity: 0.8;
