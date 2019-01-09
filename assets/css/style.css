@@ -217,10 +217,8 @@ nav {
     padding: 3%; }
   .brussels h2 {
     margin-top: 10px;
-    padding-top: 0px;
-    padding-left: px; }
+    padding-top: 0px; }
   .brussels ul {
-    padding-left: px;
     padding-bottom: 0px;
     margin-bottom: 0px; }
   .form button {
@@ -229,4 +227,14 @@ nav {
     .form button i {
       -webkit-box-align: center;
       -ms-flex-align: center;
-      align-items: center; } }
+      align-items: center; }
+  .map iframe {
+    width: 300px;
+    height: 300px; } }
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .card p {
+    line-height: 15px;
+    font-size: 14px; }
+  .card .card-body {
+    padding-bottom: 6px; } }

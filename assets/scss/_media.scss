@@ -22,10 +22,8 @@
   h2 {
     margin-top: 10px;
     padding-top: 0px;
-    padding-left: px;
   }
   ul {
-    padding-left: px;
     padding-bottom: 0px;
     margin-bottom: 0px;
   }
@@ -42,4 +40,23 @@
 
   }
 }
+
+.map {
+  iframe {
+    width: 300px;
+    height: 300px;
+  }
+}
+}
+@media screen and (min-width: 768px)and (max-width: 1200px){
+  .card {
+    p {
+      line-height: 15px;
+      font-size: 14px;
+    }
+    .card-body{
+      padding-bottom: 6px;
+    }
+  }
+
 }
