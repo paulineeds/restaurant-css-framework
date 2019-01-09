@@ -145,8 +145,21 @@ form {
   border:none;
   background-image: url("../img/debut_light.png");
   border-radius: 5px;
+  &:hover {
+    color: $maincolor;
+    transition-timing-function: ease-in;
+    transition: 0.5s;
+  }
+  &:active {
+    border: solid $maincolor 1px;
+  }
+  &:focus {
+    outline: none;
+    box-shadow:none !important;
+    border:1px solid $maincolor;
   }
   }
+}
 img {
   width: 100%;
   opacity: 0.8;

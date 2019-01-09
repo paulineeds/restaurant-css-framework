@@ -99,6 +99,21 @@ nav {
     border: none;
     background-image: url("../img/debut_light.png");
     border-radius: 5px; }
+    #container .pagination a:hover {
+      color: #DDB1A4;
+      -webkit-transition-timing-function: ease-in;
+      -o-transition-timing-function: ease-in;
+      transition-timing-function: ease-in;
+      -webkit-transition: 0.5s;
+      -o-transition: 0.5s;
+      transition: 0.5s; }
+    #container .pagination a:active {
+      border: solid #DDB1A4 1px; }
+    #container .pagination a:focus {
+      outline: none;
+      -webkit-box-shadow: none !important;
+      box-shadow: none !important;
+      border: 1px solid #DDB1A4; }
   #container img {
     width: 100%;
     opacity: 0.8;
