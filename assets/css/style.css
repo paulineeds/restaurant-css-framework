@@ -36,25 +36,23 @@ nav {
     background-color: #F7F7F7;
     border: solid 1px #423531;
     width: 95%;
-    margin: auto;
-    margin-top: 40px;
+    margin: 40px auto auto;
     height: 325px;
-    padding-bottom: 0px;
+    padding-bottom: 0;
     padding-top: 5px; }
     #container .jumbotron img {
       opacity: 0.8; }
   #container .card-deck {
     width: 98%;
-    margin: auto;
-    margin-top: 40px; }
+    margin: 40px auto auto; }
     #container .card-deck .card {
       background-color: #F7F7F7;
       border: solid 1px #423531;
       color: #423531; }
       #container .card-deck .card img {
-        padding: 0px;
+        padding: 0;
         opacity: 0.8;
-        border-radius: 0px;
+        border-radius: 0;
         height: 50%; }
       #container .card-deck .card h5 {
         font-weight: 600; }
@@ -67,8 +65,7 @@ nav {
     color: #423531; }
   #container form {
     width: 70%;
-    margin: auto;
-    margin-top: 30px;
+    margin: 30px auto auto;
     color: #423531; }
     #container form input {
       color: #423531; }
@@ -128,26 +125,25 @@ nav {
   #container .list h1 {
     text-align: center;
     padding: 2%;
-    margin-bottom: 0px;
+    margin-bottom: 0;
     color: #423531; }
   #container .list img {
     margin-top: 40px;
     width: 50px;
-    padding-top: 0px; }
+    padding-top: 0; }
   #container .list .list-group {
     width: 60%;
-    margin: auto;
-    margin-bottom: 30px;
+    margin: auto auto 30px;
     padding: none; }
     #container .list .list-group .list-group-item {
       background-image: url("../img/debut_light.png"); }
     #container .list .list-group h6 {
       font-weight: 600;
-      margin-bottom: 0px;
+      margin-bottom: 0;
       color: #423531; }
     #container .list .list-group p {
       font-weight: lighter;
-      margin-bottom: 0px;
+      margin-bottom: 0;
       font-size: 11px;
       color: #423531; }
 
@@ -168,13 +164,13 @@ nav {
 
 .map ul {
   list-style: none;
-  padding-left: 0px;
+  padding-left: 0;
   margin-left: 75px; }
   .map ul i {
     padding-right: 5%; }
   .map ul .text {
     visibility: hidden;
-    padding-top: 0%; }
+    padding-top: 0; }
   .map ul .space {
     padding-bottom: 2%; }
   .map ul i.space {
@@ -194,7 +190,6 @@ nav {
   background-color: #DDB1A4;
   color: #423531; }
   .container-fluid .row {
-    width: 90%;
     margin: auto; }
   .container-fluid .col-md-4 {
     margin-top: 10px;
@@ -225,18 +220,18 @@ nav {
   .jumbotron img {
     visibility: hidden; }
   .pagination .A {
-    padding: 0px; }
+    padding: 0; }
   .col-xs-12 {
     padding: 3%; }
   .col-md-6 {
     padding: 3%; }
   .brussels h2 {
     margin-top: 10px;
-    padding-top: 0px;
+    padding-top: 0;
     margin-left: 30px; }
   .brussels ul {
-    padding-bottom: 0px;
-    margin-bottom: 0px;
+    padding-bottom: 0;
+    margin-bottom: 0;
     margin-left: 30px; }
   .brussels iframe {
     width: 250px;

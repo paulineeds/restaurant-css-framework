@@ -2,8 +2,7 @@ $maincolor: #DDB1A4;
 $accentcolor: #423531;
 $white: #f5f5f5;
 $grey: #F7F7F7;
-$font:'Rajdhani', sans-serif;
-
+$font: 'Rajdhani', sans-serif;
 
 body {
   font-family: $font;
@@ -11,10 +10,8 @@ body {
   overflow-x: hidden;
   color: $accentcolor;
 }
-
 // navbar---------------------------------------------------------------------------------------------------
 nav {
-
   font-size: 18px;
 
   img {
@@ -25,275 +22,292 @@ nav {
   }
 
   .navbar-brand {
-  font-weight: bold;
-  font-size: 19px;
-  margin-right: 50px;
-}
+    font-weight: bold;
+    font-size: 19px;
+    margin-right: 50px;
+  }
 
   input {
-  width: 125px;
-  height: 25px;
-  outline-color: $accentcolor;
-  outline-width: thin;
-  color: $accentcolor;
-  border-radius: 0.25em;
-  border:$accentcolor;
-  background-image: url("../img/debut_light.png");
-  text-align: center;
-  font-size: 12px;
-}
+    width: 125px;
+    height: 25px;
+    outline-color: $accentcolor;
+    outline-width: thin;
+    color: $accentcolor;
+    border-radius: 0.25em;
+    border: $accentcolor;
+    background-image: url("../img/debut_light.png");
+    text-align: center;
+    font-size: 12px;
+  }
 
   .navbar-toggler-icon {
-  outline-color: $accentcolor;
-}
+    outline-color: $accentcolor;
+  }
 }
 // close navbar---------------------------------------------------------------------------------------------
 
-  #container {
+#container {
   width: 80%;
   margin: auto;
-// jumbotron ----------------------------------------------------------------------------------------------
+
+// jumbotron ---------------------------------------------------------------------------------------------
+
   .jumbotron {
     background-color: $grey;
     border: solid 1px $accentcolor;
     width: 95%;
-    margin:auto;
-    margin-top: 40px;
+    margin: 40px auto auto;
     height: 325px;
-    padding-bottom: 0px;
+    padding-bottom: 0;
     padding-top: 5px;
+
     img {
       opacity: 0.8;
     }
-}
+  }
 // close jumbotron -----------------------------------------------------------------------------------------
 // cards --------------------------------------------------------------------------------------------------
 
-.card-deck {
-  width: 98%;
-  margin: auto;
-  margin-top: 40px;
-  .card {
-  background-color: $grey;
-  border: solid 1px $accentcolor;
-  color: $accentcolor;
-  img {
-    padding: 0px;
-    opacity: 0.8;
-    border-radius: 0px;
-    height: 50%;
-  }
-  h5 {
-    font-weight: 600;
-  }
-  a {
-    text-decoration: underline;
-    color: $maincolor;
-  }
-}
-}
+  .card-deck {
+    width: 98%;
+    margin: 40px auto auto;
 
+    .card {
+      background-color: $grey;
+      border: solid 1px $accentcolor;
+      color: $accentcolor;
 
+      img {
+        padding: 0;
+        opacity: 0.8;
+        border-radius: 0;
+        height: 50%;
+      }
 
-// form ----------------------------------------------------------------------------------------------------
-.form {
-  h1 {
-    text-align: center;
-    margin-top: 40px;
-    color: $accentcolor;
-}
-}
-form {
-  width: 70%;
-  margin: auto;
-  margin-top: 30px;
-  color: $accentcolor;
+      h5 {
+        font-weight: 600;
+      }
 
-  input {
-  color: $accentcolor;
-  }
-
-
-  .form-control:focus {
-  outline: none;
-  box-shadow:none !important;
-  border:1px solid $accentcolor;
-}
-
-
-  button {
-  background-color: $maincolor;
-  border: none;
-  color: $accentcolor;
-  width: 8%;
-    &:hover {
-    color: $white;
-    box-shadow: 5px 10px 10px 0 rgba(0,0,0,0.24);
-    transition-timing-function: ease-in;
-    transition: 0.5s;
+      a {
+        text-decoration: underline;
+        color: $maincolor;
+      }
     }
   }
-}
+// form ----------------------------------------------------------------------------------------------------
+  .form {
+    h1 {
+      text-align: center;
+      margin-top: 40px;
+      color: $accentcolor;
+    }
+  }
+
+  form {
+    width: 70%;
+    margin: 30px auto auto;
+    color: $accentcolor;
+
+    input {
+      color: $accentcolor;
+    }
+
+    .form-control:focus {
+      outline: none;
+      box-shadow: none !important;
+      border: 1px solid $accentcolor;
+    }
+
+    button {
+      background-color: $maincolor;
+      border: none;
+      color: $accentcolor;
+      width: 8%;
+
+      &:hover {
+        color: $white;
+        box-shadow: 5px 10px 10px 0 rgba(0,0,0,0.24);
+        transition-timing-function: ease-in;
+        transition: 0.5s;
+      }
+    }
+  }
 // Close form ----------------------------------------------------------------------------------------------
+// photos --------------------------------------------------------------------------------------------------
+  .pagination {
+    a {
+      text-decoration: none;
+      color: $accentcolor;
+      padding: 8px 16px;
+      border: none;
+      background-image: url("../img/debut_light.png");
+      border-radius: 5px;
 
-//photos ---------------------------------------------------------------------------------------------------
-.pagination {
-  a {
-  text-decoration: none;
-  color: $accentcolor;
-  padding: 8px 16px;
-  border:none;
-  background-image: url("../img/debut_light.png");
-  border-radius: 5px;
+      &:hover {
+        color: $maincolor;
+        transition-timing-function: ease-in;
+        transition: 0.5s;
+      }
 
-  &:hover {
-    color: $maincolor;
-    transition-timing-function: ease-in;
-    transition: 0.5s;
-  }
-  &:active {
-    border: solid $maincolor 1px;
-  }
-  &:focus {
-    outline: none;
-    box-shadow:none !important;
-    border:1px solid $maincolor;
-  }
-  }
+      &:active {
+        border: solid $maincolor 1px;
+      }
+
+      &:focus {
+        outline: none;
+        box-shadow: none !important;
+        border: 1px solid $maincolor;
+      }
+    }
   }
 
-img {
-  width: 100%;
-  opacity: 0.8;
-  border-radius: 1%;
-  margin: auto;
-  display: block;
-}
+  img {
+    width: 100%;
+    opacity: 0.8;
+    border-radius: 1%;
+    margin: auto;
+    display: block;
+  }
 
-.A {
-  padding-top: 3%;
-  padding-bottom: 3%;
-}
+  .A {
+    padding-top: 3%;
+    padding-bottom: 3%;
+  }
 
-.photos {
-  margin-top: 40px;
-}
+  .photos {
+    margin-top: 40px;
+  }
 // Close photos -------------------------------------------------------------------------------------------
 // menu ---------------------------------------------------------------------------------------------------
-.list {
-  h1 {
-    text-align: center;
-    padding:2%;
-    margin-bottom: 0px;
-    color: $accentcolor;
+
+  .list {
+    h1 {
+      text-align: center;
+      padding: 2%;
+      margin-bottom: 0;
+      color: $accentcolor;
     }
-  img {
+
+    img {
       margin-top: 40px;
-      width:50px;
-      padding-top: 0px;
+      width: 50px;
+      padding-top: 0;
+    }
+
+    .list-group {
+      width: 60%;
+      margin: auto auto 30px;
+      padding: none;
+
+      .list-group-item {
+        background-image: url("../img/debut_light.png");
       }
-  .list-group {
-  width: 60%;
-  margin:auto;
-  margin-bottom: 30px;
-  padding: none;
-  .list-group-item{
-    background-image: url("../img/debut_light.png");
+
+      h6 {
+        font-weight: 600;
+        margin-bottom: 0;
+        color: $accentcolor;
+      }
+
+      p {
+        font-weight: lighter;
+        margin-bottom: 0;
+        font-size: 11px;
+        color: $accentcolor;
+      }
+    }
   }
-  h6 {
-    font-weight: 600;
-    margin-bottom: 0px;
-    color:$accentcolor;
-    }
-  p {
-    font-weight: lighter;
-    margin-bottom: 0px;
-    font-size: 11px;
-    color:$accentcolor;
-    }
 }
-}
-
-}//close container
-
+//close container
 // map ------------------------------------------------------------------------
-.map  {
-iframe {
-  margin-top: 40px;
-  opacity: 0.7;
-  display: block;
-  margin: auto;
-  padding-top: 40px;
+.map {
+  iframe {
+    margin-top: 40px;
+    opacity: 0.7;
+    display: block;
+    margin: auto;
+    padding-top: 40px;
 
-&:hover {
-  opacity: 1;
-}
-}
-h2 {
-  padding-top: 40px;
-  margin-top: 17%;
-  margin-left: 75px;
-  padding-bottom: 1%;
-}
-ul {
-  list-style: none;
-  padding-left: 0px;
-  margin-left: 75px;
-  i {
-    padding-right: 5%;
+    &:hover {
+      opacity: 1;
+    }
   }
-  .text {
-    visibility: hidden;
-    padding-top: 0%;
-  }
-  .space {
-    padding-bottom: 2%;
-  }
-  i.space {
-    padding-right: 6%;
-  }
-}
-.brussels {
-  border: solid 1px $accentcolor;
-  background-color:$grey;
-  width: 87%;
-  margin:auto;
-  border-radius: 5px;
-  padding-bottom: 40px;
-  margin-top: 40px;
-}
-}
 
- // footer ------------------------------------------------------------------------------------------------
+  h2 {
+    padding-top: 40px;
+    margin-top: 17%;
+    margin-left: 75px;
+    padding-bottom: 1%;
+  }
+
+  ul {
+    list-style: none;
+    padding-left: 0;
+    margin-left: 75px;
+
+    i {
+      padding-right: 5%;
+    }
+
+    .text {
+      visibility: hidden;
+      padding-top: 0;
+    }
+
+    .space {
+      padding-bottom: 2%;
+    }
+
+    i.space {
+      padding-right: 6%;
+    }
+  }
+
+  .brussels {
+    border: solid 1px $accentcolor;
+    background-color: $grey;
+    width: 87%;
+    margin: auto;
+    border-radius: 5px;
+    padding-bottom: 40px;
+    margin-top: 40px;
+  }
+}
+// footer ------------------------------------------------------------------------------------------------
 .container-fluid {
   margin-top: 40px;
   background-color: $maincolor;
   color: $accentcolor;
+
   .row {
-    width: 90%;
     margin: auto;
   }
-  .col-md-4{
+
+  .col-md-4 {
     margin-top: 10px;
     text-align: center;
+
     h2 {
       font-weight: bold;
     }
+
     h6 {
       font-weight: 600;
       margin-bottom: 5%;
     }
+
     a {
       padding: 4%;
       text-decoration: none;
-      color:$accentcolor;
-
+      color: $accentcolor;
     }
+
     a:hover {
       color: $white;
       transition-timing-function: ease-in;
       transition: 0.5s;
     }
+
     img {
       opacity: 0.8;
     }
