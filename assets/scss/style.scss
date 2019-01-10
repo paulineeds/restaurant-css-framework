@@ -145,6 +145,7 @@ form {
   border:none;
   background-image: url("../img/debut_light.png");
   border-radius: 5px;
+
   &:hover {
     color: $maincolor;
     transition-timing-function: ease-in;
@@ -159,7 +160,8 @@ form {
     border:1px solid $maincolor;
   }
   }
-}
+  }
+
 img {
   width: 100%;
   opacity: 0.8;
