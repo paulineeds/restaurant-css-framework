@@ -81,7 +81,6 @@ nav {
         padding: 0;
         opacity: 0.8;
         border-radius: 0;
-        height: 50%;
       }
 
       h5 {
@@ -142,6 +141,7 @@ nav {
       border: none;
       background-image: url("../img/debut_light.png");
       border-radius: 5px;
+      margin: 2px;
 
       &:hover {
         color: $maincolor;
@@ -158,6 +158,10 @@ nav {
         box-shadow: none !important;
         border: 1px solid $maincolor;
       }
+    }
+    .active {
+      color: $maincolor;
+      border: solid 1px $maincolor;
     }
   }
 
@@ -279,6 +283,7 @@ nav {
   background-color: $maincolor;
   color: $accentcolor;
 
+
   .row {
     margin: auto;
   }
@@ -286,6 +291,10 @@ nav {
   .col-md-4 {
     margin-top: 10px;
     text-align: center;
+
+    img {
+      width: 40px;
+    }
 
     h2 {
       font-weight: bold;
@@ -308,9 +317,6 @@ nav {
       transition: 0.5s;
     }
 
-    img {
-      opacity: 0.8;
-    }
   }
 }
 @import 'media';

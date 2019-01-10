@@ -52,8 +52,7 @@ nav {
       #container .card-deck .card img {
         padding: 0;
         opacity: 0.8;
-        border-radius: 0;
-        height: 50%; }
+        border-radius: 0; }
       #container .card-deck .card h5 {
         font-weight: 600; }
       #container .card-deck .card a {
@@ -95,7 +94,8 @@ nav {
     padding: 8px 16px;
     border: none;
     background-image: url("../img/debut_light.png");
-    border-radius: 5px; }
+    border-radius: 5px;
+    margin: 2px; }
     #container .pagination a:hover {
       color: #DDB1A4;
       -webkit-transition-timing-function: ease-in;
@@ -111,6 +111,9 @@ nav {
       -webkit-box-shadow: none !important;
       box-shadow: none !important;
       border: 1px solid #DDB1A4; }
+  #container .pagination .active {
+    color: #DDB1A4;
+    border: solid 1px #DDB1A4; }
   #container img {
     width: 100%;
     opacity: 0.8;
@@ -194,6 +197,8 @@ nav {
   .container-fluid .col-md-4 {
     margin-top: 10px;
     text-align: center; }
+    .container-fluid .col-md-4 img {
+      width: 40px; }
     .container-fluid .col-md-4 h2 {
       font-weight: bold; }
     .container-fluid .col-md-4 h6 {
@@ -211,8 +216,6 @@ nav {
       -webkit-transition: 0.5s;
       -o-transition: 0.5s;
       transition: 0.5s; }
-    .container-fluid .col-md-4 img {
-      opacity: 0.8; }
 
 @media screen and (max-width: 768px) {
   body {
@@ -248,11 +251,6 @@ nav {
     margin-left: -15px; }
   .list {
     width: 110%;
-    margin-left: -15px; } }
-
-@media screen and (min-width: 768px) and (max-width: 1200px) {
-  .card p {
-    line-height: 15px;
-    font-size: 14px; }
-  .card .card-body {
-    padding-bottom: 6px; } }
+    margin-left: -15px; }
+  .container-fluid .col-md-4 .logo-part img {
+    width: 5px; } }
